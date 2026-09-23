@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "orcaloops": {
+      "command": "orcaloops-mcp"
+    }
+  }
+}

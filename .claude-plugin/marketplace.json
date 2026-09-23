@@ -1,0 +1,13 @@
+{
+  "name": "orcaloops",
+  "owner": {
+    "name": "Orcaloops"
+  },
+  "plugins": [
+    {
+      "name": "orcaloops",
+      "source": "./plugins/orcaloops",
+      "description": "Orcaloops: hand work to loops, author loops live, and follow up on them."
+    }
+  ]
+}
