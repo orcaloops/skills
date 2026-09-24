@@ -1,7 +1,8 @@
 {
   "mcpServers": {
     "orcaloops": {
-      "command": "orcaloops-mcp"
+      "type": "http",
+      "url": "https://api.orcaloops.ai/mcp"
     }
   }
 }
