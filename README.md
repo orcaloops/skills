@@ -1,7 +1,7 @@
 # orcaloops/skills
 
-The Claude Code plugin marketplace for Orcaloops. It holds one plugin,
-`orcaloops`.
+The Claude Code and Codex plugin marketplace for Orcaloops. It holds one
+plugin, `orcaloops`, for each.
 
 ## What the plugin gives you
 
@@ -36,6 +36,17 @@ claude plugin update orcaloops@orcaloops
 
 If you once added the server by hand at user scope, remove that entry with
 `claude mcp remove orcaloops -s user`, or both servers load.
+
+## Codex
+
+```
+codex plugin marketplace add orcaloops/skills
+codex plugin add orcaloops@orcaloops
+```
+
+Then approve the browser sign-in. If it does not open by itself, run
+`codex mcp login orcaloops`. The same three skills and the same hosted server
+come with it.
 
 ## Scripts and CI
 

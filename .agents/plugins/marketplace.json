@@ -1,0 +1,20 @@
+{
+  "name": "orcaloops",
+  "interface": {
+    "displayName": "Orcaloops"
+  },
+  "plugins": [
+    {
+      "name": "orcaloops",
+      "source": {
+        "source": "local",
+        "path": "./plugins/orcaloops-codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

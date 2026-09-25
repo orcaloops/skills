@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "orcaloops",
+  "version": "2026.9.24",
+  "description": "Orcaloops: hand work to loops, author loops live, and follow up on them."
+}
